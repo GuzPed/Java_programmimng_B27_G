@@ -1,0 +1,23 @@
+package day13_switch_string;
+
+public class Quiz {
+    public static void main(String[] args) {
+        System.out.println("Select the primitive datatype");
+        System.out.println("a) string");
+        System.out.println("b) int");
+        System.out.println("c) main");
+
+        char option = 'b';
+        switch (option){
+            case 'b':
+            System.out.println("correct");
+            break;
+            case 'a':
+            case 'c':
+                System.out.println("incorrect");
+        }
+
+
+    }
+
+}
